@@ -50,15 +50,7 @@ export function MainContent() {
             <TabsTrigger value={Tab.Text}>{t('tabs.text')}</TabsTrigger>
             <TabsTrigger value={Tab.Upload}>{t('tabs.upload')}</TabsTrigger>
           </TabsList>
-          <Button asChild className='p-4' size='icon' variant='ghost'>
-            <a
-              href='https://github.com/zhangyu1818/appicon-forge'
-              rel='noreferrer'
-              target='_blank'
-            >
-              <Icon icon='octicon:mark-github-24' />
-            </a>
-          </Button>
+ */}
           <LanguageToggle />
           <ThemeToggle />
         </div>
